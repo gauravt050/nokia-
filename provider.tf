@@ -22,3 +22,7 @@ provider "azurerm" {
     features {}
   
 }
+resource "azurerm_resource_group" "rgsts22" {
+    name = "test-rg102"
+    location = "southindia"
+}
